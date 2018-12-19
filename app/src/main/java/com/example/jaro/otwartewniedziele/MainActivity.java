@@ -8,17 +8,16 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button = (Button)findViewById(R.id.SklepyPoAdresie);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_main );
 
-        button.setOnClickListener(new View.OnClickListener (){
+        final Button btn = findViewById(R.id.SklepyPoAdresie);
+        btn.setOnClickListener(new View.OnClickListener (){
             public void onClick(View v) {
-                Intent i = new Intent ( MainActivity.this, ByAdress.class );
-                MainActivity.this.startActivity ( i );
+                Intent i = new Intent ( getApplicationContext (), ByAdress.class );
+                startActivity (i);
             }
         });
     }
