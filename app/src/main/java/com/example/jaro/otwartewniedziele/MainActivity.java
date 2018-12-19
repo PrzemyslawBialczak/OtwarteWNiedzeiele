@@ -13,11 +13,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_main );
 
-        final Button btn = findViewById(R.id.SklepyPoAdresie);
-        btn.setOnClickListener(new View.OnClickListener (){
+        final Button btn1 = findViewById(R.id.SklepyPoAdresie);
+        btn1.setOnClickListener(new View.OnClickListener (){
             public void onClick(View v) {
                 Intent i = new Intent ( getApplicationContext (), ByAdress.class );
                 startActivity (i);
+            }
+        });
+
+        final Button btn2 = findViewById(R.id.Zamknij);
+        btn1.setOnClickListener(new View.OnClickListener (){
+            public void onClick(View v) {
+                finish ();
+                System.exit ( 0 );
             }
         });
     }
