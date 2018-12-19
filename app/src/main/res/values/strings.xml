@@ -22,4 +22,11 @@
     <string name="surnameHInt">Nazwisko</string>
     <string name="confirmPassword">powtórz hasło</string>
     <string name="emailExample">jan.kowalski@gmail.com</string>
+    <string name="loggedAs">Zalogowany jako:</string>
+    <string name="mainPage">Strona startowa</string>
+    <string name="addShop">Dodaj sklep</string>
+    <string name="yourShops">Twoje sklepy</string>
+    <string name="Name">Imię</string>
+    <string name="surname">Nazwisko</string>
+    <string name="email">Email</string>
 </resources>
