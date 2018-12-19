@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OtwarteWNiedziele</string>
+    <string name="Welcome">Witamy</string>
+    <string name="PortalSprzewawcy">Portal Sprzewawcy</string>
+    <string name="Zamknij">Zamknij Aplikację</string>
+    <string name="SklepyWOkolicy">Wyświetl sklepy otwarte w okolicy.</string>
+    <string name="SklepyPoAdresie">Wyświetl sklepy po podanym adresie.</string>
+    <string name="Back">Powrót</string>
+    <string name="Enter">Zatwierdź</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="0dp"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/rys"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <EditText
+        android:id="@+id/InitText"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:text="@string/Welcome"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="208dp"
+        android:layout_height="45dp"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+</android.support.constraint.ConstraintLayout>

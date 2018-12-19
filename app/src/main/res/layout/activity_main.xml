@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/PortalSprzedawcy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PortalSprzewawcy"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/Zamknij"
+        android:layout_width="174dp"
+        android:layout_height="47dp"
+        android:text="@string/Zamknij"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="388dp"
+        android:layout_height="212dp"
+        android:src="@drawable/rys"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/SklepyWOkolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SklepyWOkolicy"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <Button
+        android:id="@+id/SklepyPoAdresie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SklepyPoAdresie"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+</android.support.constraint.ConstraintLayout>
