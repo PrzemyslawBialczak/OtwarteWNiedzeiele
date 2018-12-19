@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".AddShopInfoActivity">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="123dp"
+        android:layout_height="21dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="154dp" />
 </android.support.constraint.ConstraintLayout>
