@@ -12,20 +12,13 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/rys"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="92dp" />
-
-    <EditText
-        android:id="@+id/InitText"
-        android:layout_width="180dp"
-        android:layout_height="42dp"
-        android:ems="10"
-        android:text="@string/Welcome"
-        android:textColor="@color/colorAccent"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="438dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rys" />
 
     <TextView
         android:id="@+id/textView"
@@ -35,7 +28,24 @@
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="37dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
 
 </android.support.constraint.ConstraintLayout>
