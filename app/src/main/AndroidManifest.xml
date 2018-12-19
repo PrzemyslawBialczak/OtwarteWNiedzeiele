@@ -13,25 +13,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen">
+        <activity android:name=".Activites.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".ByAdress" />
-        <activity android:name=".MapActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".InputEditShopownerDataActivity" />
-        <activity android:name=".LoggedActivity" />
-        <activity android:name=".InputShopDataActivity" />
-        <activity android:name=".YourShopsActivity" />
-        <activity android:name=".DeletedShopInfoActivity" />
-        <activity android:name=".EditShopDataActivity" />
-        <activity android:name=".UpdateShopInfoActivity" />
-        <activity android:name=".AddShopInfoActivity"></activity>
+        <activity android:name=".Activites.MainActivity" />
+        <activity android:name=".Activites.ByAdress" />
+        <activity android:name=".Activites.MapActivity" />
+        <activity android:name=".Activites.LoginActivity" />
+        <activity android:name=".Activites.InputEditShopownerDataActivity" />
+        <activity android:name=".Activites.LoggedActivity" />
+        <activity android:name=".Activites.InputShopDataActivity" />
+        <activity android:name=".Activites.YourShopsActivity" />
+        <activity android:name=".Activites.DeletedShopInfoActivity" />
+        <activity android:name=".Activites.EditShopDataActivity" />
+        <activity android:name=".Activites.UpdateShopInfoActivity" />
+        <activity android:name=".Activites.AddShopInfoActivity"></activity>
     </application>
 
 </manifest>

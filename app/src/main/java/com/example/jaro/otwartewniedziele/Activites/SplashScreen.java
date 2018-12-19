@@ -1,8 +1,10 @@
-package com.example.jaro.otwartewniedziele;
+package com.example.jaro.otwartewniedziele.Activites;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.jaro.otwartewniedziele.R;
 
 public class SplashScreen extends AppCompatActivity {
 
