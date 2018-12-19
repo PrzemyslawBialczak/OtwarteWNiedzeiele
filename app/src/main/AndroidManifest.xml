@@ -22,9 +22,9 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".ByAdress" />
-        <activity android:name=".MapAtivity" />
+        <activity android:name=".MapActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".InputEditActivity" />
+        <activity android:name=".InputEditShopownerDataActivity" />
         <activity android:name=".LoggedActivity" />
         <activity android:name=".InputShopDataActivity" />
         <activity android:name=".YourShopsActivity" />

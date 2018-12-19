@@ -8,6 +8,6 @@ public class InputShopDataActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_input_edit_shop_data );
+        setContentView ( R.layout.activity_input_shop_data );
     }
 }
