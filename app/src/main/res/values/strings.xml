@@ -13,4 +13,9 @@
     <string name="shopName">Nazwa sklepu</string>
     <string name="dataShop">Dane dotyczące sklepu</string>
     <string name="update">zostały zakualizowane.</string>
+    <string name="login">Zaloguj</string>
+    <string name="loginhint">login</string>
+    <string name="password">hasło</string>
+    <string name="or">lub</string>
+    <string name="newUser">Rejestracja nowego użytkownika.</string>
 </resources>
