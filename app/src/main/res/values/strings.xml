@@ -8,4 +8,9 @@
     <string name="Back">Powrót</string>
     <string name="Enter">Zatwierdź</string>
     <string name="title_activity_maps">Map</string>
+    <string name="shop">SKLEP</string>
+    <string name="add">został dodany do bazy danych.</string>
+    <string name="shopName">Nazwa sklepu</string>
+    <string name="dataShop">Dane dotyczące sklepu</string>
+    <string name="update">zostały zakualizowane.</string>
 </resources>
