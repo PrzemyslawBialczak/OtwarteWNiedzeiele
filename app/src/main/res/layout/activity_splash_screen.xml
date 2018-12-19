@@ -9,10 +9,12 @@
     <ImageView
         android:id="@+id/Logo"
         android:layout_width="0dp"
-        android:layout_height="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
         app:srcCompat="@drawable/rys"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="129dp" />
+        tools:layout_editor_absoluteY="92dp" />
 
     <EditText
         android:id="@+id/InitText"
@@ -34,6 +36,6 @@
         android:textSize="24sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="55dp" />
+        tools:layout_editor_absoluteY="37dp" />
 
 </android.support.constraint.ConstraintLayout>
