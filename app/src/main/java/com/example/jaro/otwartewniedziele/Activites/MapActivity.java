@@ -18,7 +18,7 @@ public class MapActivity extends AppCompatActivity {
         final Button btn1 = findViewById(R.id.back3);
         btn1.setOnClickListener(new View.OnClickListener (){
             public void onClick(View v) {
-                Intent i = new Intent ( getApplicationContext (), MapActivity.class );
+                Intent i = new Intent ( getApplicationContext (), MainActivity.class );
                 startActivity (i);
             }
         });

@@ -18,4 +18,8 @@
     <string name="password">hasło</string>
     <string name="or">lub</string>
     <string name="newUser">Rejestracja nowego użytkownika.</string>
+    <string name="nameHint">Imię</string>
+    <string name="surnameHInt">Nazwisko</string>
+    <string name="confirmPassword">powtórz hasło</string>
+    <string name="emailExample">jan.kowalski@gmail.com</string>
 </resources>
