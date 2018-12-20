@@ -30,4 +30,19 @@
     <string name="surname">Nazwisko</string>
     <string name="email">Email</string>
     <string name="AddShopInfo">Podaj dane dotyczące sklepu:</string>
+    <string name="alkohol">Czy posiadasz w sprzedarzy alkohol:</string>
+    <string name="Yes">Tak</string>
+    <string name="No">Nie</string>
+    <string name="Postcode">Kod pocztowy</string>
+    <string name="City">MIasto</string>
+    <string name="Street">Ulica</string>
+    <string name="BuldingNo">Nr budynku</string>
+    <string name="LocalNo">Nr lokalu</string>
+    <string name="OpenHouer">Godzina otwarcia</string>
+    <string name="CloseHouer">Godzina zamknięcia</string>
+    <string name="EditShop">Modyfikuj sklep</string>
+    <string name="DeleteShop">Usuń sklep</string>
+    <string name="ListOfYourShops">Lista twoich sklepów:</string>
+    <string name="DelShopInfo">został usunięty z bazy danych.</string>
+    <string name="EditShopInfo">Dane dotyczące sklepu:</string>
 </resources>
