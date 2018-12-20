@@ -42,7 +42,7 @@ public class LoggedActivity extends AppCompatActivity {
         final Button btn4 = findViewById(R.id.YourShops);
         btn4.setOnClickListener(new View.OnClickListener (){
             public void onClick(View v) {
-                Intent i = new Intent ( getApplicationContext (), LoggedActivity.class );
+                Intent i = new Intent ( getApplicationContext (), YourShopsActivity.class );
                 startActivity (i);
             }
         });
