@@ -7,7 +7,7 @@
     tools:context=".Activites.InputEditShopownerDataActivity">
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/surname5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/name5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/password5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.915" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/mail5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="184dp"
@@ -85,7 +85,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/login5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="232dp"
@@ -98,7 +98,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/confirmpassword5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="344dp"

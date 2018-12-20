@@ -29,4 +29,5 @@
     <string name="Name">Imię</string>
     <string name="surname">Nazwisko</string>
     <string name="email">Email</string>
+    <string name="AddShopInfo">Podaj dane dotyczące sklepu:</string>
 </resources>

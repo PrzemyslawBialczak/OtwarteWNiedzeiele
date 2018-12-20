@@ -1,4 +1,4 @@
-package com.example.jaro.otwartewniedziele.Databases;
+package com.example.jaro.otwartewniedziele.Database;
 
 public class LoggedData {
     private int Id;

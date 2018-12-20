@@ -1,4 +1,4 @@
-package com.example.jaro.otwartewniedziele.Databases;
+package com.example.jaro.otwartewniedziele.Database;
 
 import java.sql.Time;
 
