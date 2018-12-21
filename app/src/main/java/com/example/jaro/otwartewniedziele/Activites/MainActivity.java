@@ -23,10 +23,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final Button btn2 = findViewById(R.id.Zamknij);
+        final Button btn2 = findViewById(R.id.CloseApplication);
         btn2.setOnClickListener(new View.OnClickListener (){
             public void onClick(View v) {
-                finish ();
+                Intent i = new Intent ( getApplicationContext (), MainActivity.class );
+                startActivity ( i );
+                finishActivity ( 0 );
                 System.exit ( 0 );
             }
         });

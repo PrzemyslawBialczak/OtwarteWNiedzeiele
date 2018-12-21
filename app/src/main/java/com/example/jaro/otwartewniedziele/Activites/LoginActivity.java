@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         final Button btn3 = findViewById(R.id.NewUser);
         btn3.setOnClickListener(new View.OnClickListener (){
             public void onClick(View v) {
-                Intent i = new Intent ( getApplicationContext (), MapActivity.class );
+                Intent i = new Intent ( getApplicationContext (), InputEditShopownerDataActivity.class );
                 startActivity (i);
             }
         });
