@@ -28,8 +28,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent ( getApplicationContext (), MainActivity.class );
                 startActivity ( i );
-                finishActivity ( 0 );
-                System.exit ( 0 );
+                moveTaskToBack ( true );
+                android.os.Process.killProcess ( android.os.Process.myPid () );
+                System.exit ( 1 );
             }
         });
 
